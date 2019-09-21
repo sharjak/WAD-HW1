@@ -1,0 +1,36 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#header-container {
+    text-align: center;
+    background-color: rgba(141, 193, 235, 0.521);
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#profile-section {
+    display: flex;
+    padding-top: 20px;
+    align-content: center;
+    margin: auto;
+}
+
+.profile-picture {
+    width: 200px;
+}
+
+.user-information li{
+    padding: 15px;
+    list-style-type: none;
+    font-size: 1.5rem;
+}
+
+#courses-section {
+    display: flex;
+}

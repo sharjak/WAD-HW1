@@ -5,30 +5,31 @@
     <link rel="icon" href="res/images/favicon.ico">
     <title>Hello world!</title>
     <link rel="stylesheet" href="res/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head> 
 
 <body>
-<header>
+<header id="header-container">
     <strong>Welcome to your dashboard!</strong>
 </header>
 
-<section>
-    <div>
-        <img src="res/images/me.png" alt="My picture" title="Not really my picture">
+<section id="profile-section">
+    <div class="profile-picture">
+        <img src="res/images/me.png" alt="My picture" title="Not really my picture" height=200px>
     </div>
     <div>
-        <ol>
+        <ul class="user-information">
             <li>John Doe</li>
             <li>27/06/1993</li>
             <li>Software Engineering</li>
-        </ol>
+        </ul>
     </div>
     <div>
         <strong>2.65</strong>
     </div>
 </section>
 
-<section>
+<section id="courses-section">
     <h1>
         <span>Courses</span>
     </h1>
