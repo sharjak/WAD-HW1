@@ -74,6 +74,10 @@ td, th {
     text-decoration: none;
 }
 
+.courses-information tr th:nth-child(2) {
+    text-align: left;
+}
+
 .courses-information tr td:nth-child(2) {
     text-align: left;
 }
