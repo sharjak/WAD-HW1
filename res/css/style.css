@@ -5,6 +5,14 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: rgba(248, 252, 252, 0.445);
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: center;
 }
 
 #header-container {
@@ -17,22 +25,17 @@ html, body {
 #profile-section {
     display: flex;
     padding-top: 20px;
-    align-content: center;
     margin: auto;
 }
 
 .profile-picture {
-    width: 200px;
+    padding-top: 10px;
 }
 
 .user-information li{
-    padding: 15px;
+    padding: 5px;
     list-style-type: none;
-    font-size: 1.5rem;
-}
-
-#courses-section {
-    display: flex;
+    font-size: 1;
 }
 
 footer ul {
@@ -44,4 +47,24 @@ footer ul {
 footer ul li {
     padding: 100px;
     display: inline;
+}
+
+.courses-section {
+    text-align: center;
+}
+
+.courses-container {
+    display: inline-block;
+}
+
+.courses-information {
+    border-collapse: collapse;
+}
+
+.courses-information tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
+td, th {
+    padding: 5px;
 }
