@@ -34,3 +34,14 @@ html, body {
 #courses-section {
     display: flex;
 }
+
+footer ul {
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+footer ul li {
+    padding: 100px;
+    display: inline;
+}
