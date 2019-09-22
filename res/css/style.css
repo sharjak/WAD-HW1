@@ -83,7 +83,7 @@ table {
     border: 1px solid black;
 }
 
-
+/* First element will not have border-left assigned */
 td ~ td, th ~ th {
-    border-left: 2px solid black;
+    border-left: 1px dotted gray;
 }
